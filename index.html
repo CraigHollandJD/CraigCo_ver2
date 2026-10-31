@@ -4,11 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#133d69">
-  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
   <meta name="description" content="CrAIgCo connects human experience with practical AI through seminars, technology education, and Apple Seed AI giving.">
   <title>CrAIgCo — Real people. Smarter possibilities.</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css?v=20261029-team">
+  <link rel="stylesheet" href="widgets/safety-widget.css?v=20261031">
   <script src="app.js?v=20261029-team-4" defer></script>
 </head>
 <body>
@@ -75,5 +76,6 @@
   <dialog id="reset-dialog" class="confirm-dialog" aria-labelledby="reset-title"><h2 id="reset-title">Reset your content?</h2><p>This replaces your saved copy, notes, and content choices in this browser with the original version. Export first if you want to keep them.</p><div class="confirm-actions"><button class="button secondary" id="cancel-reset">Keep my work</button><button class="button primary" id="confirm-reset">Reset content</button></div></dialog>
   <dialog id="brief-dialog" class="brief-dialog" aria-labelledby="brief-title"><div class="dialog-header"><h2 id="brief-title">Your content brief</h2><button class="icon-button" id="close-brief" aria-label="Close brief">×</button></div><p>Select and copy the text below.</p><textarea id="brief-text" rows="14" readonly aria-label="Content brief text"></textarea></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="widgets/safety-widget.js?v=20261031" defer></script>
 </body>
 </html>
